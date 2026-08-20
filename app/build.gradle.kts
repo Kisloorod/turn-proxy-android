@@ -63,8 +63,8 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
-    // WebRTC - fixed version
-    implementation("io.webrtc:google-webrtc:1.0.+")
+    // WebRTC - using available library
+    implementation("dev.onvoid.webrtc:webrtc-android:0.3.0")
 
     // OkHttp
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
